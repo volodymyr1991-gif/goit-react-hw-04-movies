@@ -1,0 +1,50 @@
+.list {
+    display: block;
+    margin: 0 auto;
+  }
+  .listItem {
+    list-style: none;
+    margin: 0 auto;
+  }
+  .listImage {
+    display: block;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
+    font-size: 46px;
+    font-family: serif;
+  }
+  .link {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+  }
+  
+  @media (min-width: 500px) and (max-width: 899px) {
+    .list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-gap: 10px;
+    }
+    .listImage {
+      max-width: 380px;
+      max-height: 380px;
+      object-fit: cover;
+    }
+  }
+  @media (min-width: 900px) {
+    .list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-gap: 20px;
+    }
+    .listImage {
+      max-width: 450px;
+      max-height: 450px;
+    }
+  }

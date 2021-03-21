@@ -1,0 +1,30 @@
+.form {
+    text-align: center;
+  }
+
+  .container{
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .input {
+    width: 500px;
+    height: 25px;
+    outline-color: #9090f6;
+    border: 3px solid #9090f6;
+  }
+  .button {
+    width: 85px;
+    height: 30px;
+    background-color: #fa783b;
+    color: #fff;
+    border-color: #fa783b;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+  .input:focus {
+    box-shadow: 1px 1px 10px 0px #9090f6;
+  }
+  .button:hover {
+    color: #fa0000;
+  }
